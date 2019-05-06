@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Ch_14JavaFXApplicationTemplate.jnlp">
+  <information>
+    <title>Ch_14JavaFXApplicationTemplate</title>
+    <vendor>zs0877310</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Ch_14JavaFXApplicationTemplate.jar" size="2489" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Ch_14JavaFXApplicationTemplate" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ch_14javafxapplicationtemplate.Ch_14JavaFXApplicationTemplate"  name="Ch_14JavaFXApplicationTemplate" />
+  <update check="always"/>
+</jnlp>
